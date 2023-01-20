@@ -132,12 +132,9 @@ justify-content: center;
 
 .bouttonLogoRechercher {
     color: white;
-    display: none;
+    font-size: 0;
 }
 
-.bouttonTexteRechercher {
-
-}
 
 .filtres, .choix, .element {
     display: flex;
