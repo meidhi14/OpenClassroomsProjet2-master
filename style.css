@@ -175,72 +175,6 @@ justify-content: center;
 
 /*------------------------------------------- Hébergements à Marseille -----------------------------------------------------*/
 
-.sectionResultatRecherche {
-    display: flex;
-    margin-bottom: 50px;
-
-}
-
-.hebergementMarseille {
-    flex-direction: column;
-
-}
-
-.hebergements {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 40px;
-    
-}
-
-.hebergementMarseille, .LesPlusPopulaires {
-    background-color: #f2f2f2;
-    padding: 50px;
-    border-radius: 15px;
-}
-
-.hebergementMarseille {
-    width: 55%;
-    height: 625px;
-    margin-right: 50px;
-}
-
-.LesPlusPopulaires {
-    width: 30%;
-    height: 625px;
-}
-
-.hebergementMarseille h2 {
-    margin-bottom: 40px;
-}
-
-
-.hebergement {
-    width: 250px;
-    height: 200px;
-    padding: 5px;
-    background-color: white;
-    margin: 10px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px #d9d9d985;
-
-}
-
-.hebergement img {
-    border-radius: 15px 15px 0 0;
-    width: 246px;
-    height: 124px;
-    object-fit:cover;
-}
-
-.hebergement h4, p, .noteHebergement {
-margin-left: 10px;
-}
-.hebergement h4 {
-margin-top: 5px;
-}
-
-
 
 .bluestar {
     color: #0065FC;
@@ -250,49 +184,75 @@ margin-top: 5px;
    color: rgba(0, 0, 0, 0.2);
 }
 
-.resultatPopulaire  {
-    margin-right: 0;
-    
+
+/* card Hébergements à Marseille */ 
+
+.sectionResultatRecherche{
+    background-color: #f2f2f2;
+    padding: 20px;
 }
 
-.TitrePopulaires {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-}
-
-.resultatPopulaire {
-    display: flex;
-    width: 343px;
-    height: 144px;
-    margin-top: 50px;
-    box-shadow: 5px 5px 5px #d9d9d985;
-}
-
-.LesPlusPopulaires img {
-    width: 137px;
-    padding: 5px;
+.cardHebergement{
     background-color: white;
-    border-radius:  15px 0 0 15px;
-    object-fit:cover;
+    padding: 10px;
+    border-radius: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
 }
-.infoPopulaires {
-    padding: 15px;
+
+.cardHebergement:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+.cardHebergement img {
+
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 114px;
+    object-fit: cover;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+
+/* card les plus populaires */ 
+
+.cardlesPlusPopulaires {
+    display: flex;
+    flex-direction: row;
     background-color: white;
-    border-radius: 0 15px 15px 0;
-    width: 196px;
+    padding: 10px;
+    border-radius: 20px;
+    width: ;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
 }
 
-.resultatPopulaire p{
+.cardlesPlusPopulaires img {
 
-    margin-top: 10px;
-    margin-left: 0;
-
+    border-radius: 20px 0 0 20px;
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
 }
 
-.notePopulaire {
-    margin-top: 40px;
+.cardlesPlusPopulaires:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2px 16px;
+}
+
+.noteLesPlusPopulaires
+
+
 
 
 /*------------------------------------------------- Activités à Marseille -----------------------------*/
