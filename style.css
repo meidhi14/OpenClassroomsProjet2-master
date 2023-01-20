@@ -1,0 +1,385 @@
+:root {
+    --primaryColor: #0065FC;
+}
+
+* {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+html{
+    background-color: #f2f2f2;
+}
+
+body {
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+}
+
+i {
+    color: #0065FC;
+}
+
+
+
+
+/*-------------------------------------------------- HEADER --------------------------------------------------------*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.logoHeader {
+    padding-top: 40px;
+
+}
+
+.logoHeader img {
+    width: 61.09px;
+    height: 19px;
+}
+.menuHeader {
+    margin-right: 20px;
+    display: flex;
+    list-style-type: none;
+    padding-right: 100px;
+}
+
+.menuHeader ul {
+display: flex;
+justify-content: center;
+}
+
+
+.menuHeader li {
+    padding-top: 40px;
+    margin: auto;
+}
+
+.menuHeader li:hover {
+    color: var(--primaryColor);
+    border-top: 1px solid  var(--primaryColor);
+}
+
+.menuHeader li a:hover{
+    color : #0065FC;
+}
+
+.menuHeader li a {
+    text-decoration: none;
+    color: black; 
+    text-align: center;
+
+    margin-right: 10px;
+
+}
+
+/* ------------------------------------------------------------ FORMULAIRE DE RECHERCHE  -------------------------------------------------*/
+
+.fonctionformulaire
+{
+    margin-bottom: 50px;
+}
+
+.formulaire{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.formulaire form {
+    display: flex;
+}
+
+
+.logolabel{
+    width: 49px;
+    height: 49px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px 0 0 16px;
+}
+
+.formulaire input{
+    width: 230px;
+    height: 45px;
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9; 
+    border-left: none;
+    border-right: none;
+}
+
+.formulaire button {
+    background-color: #0065FC;
+    color: white;
+    border: #0065FC;
+    width: 132px;
+    height: 49px;
+    border-radius: 0 16px 16px 0;
+    font-size: 1.1em;
+}
+
+.bouttonLogoRechercher {
+    color: white;
+    display: none;
+}
+
+.bouttonTexteRechercher {
+
+}
+
+.filtres, .choix, .element {
+    display: flex;
+}
+
+.filtres h3 {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.filtres i {
+    color: #0065FC;
+    font-size: 1.3em;
+
+}
+
+.element {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #D9D9D9;
+    border-radius: 30px;
+}
+
+.element:hover {
+    background-color: #DEEBFF;
+}
+
+.logofiltre {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.info {
+    display: flex;
+    margin-top: 40px;
+}
+
+/*------------------------------------------- Hébergements à Marseille -----------------------------------------------------*/
+
+.sectionResultatRecherche {
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+.hebergementMarseille {
+    flex-direction: column;
+
+}
+
+.hebergements {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    
+}
+
+.hebergementMarseille, .LesPlusPopulaires {
+    background-color: #f2f2f2;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.hebergementMarseille {
+    width: 55%;
+    height: 625px;
+    margin-right: 50px;
+}
+
+.LesPlusPopulaires {
+    width: 30%;
+    height: 625px;
+}
+
+.hebergementMarseille h2 {
+    margin-bottom: 40px;
+}
+
+
+.hebergement {
+    width: 250px;
+    height: 200px;
+    padding: 5px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #d9d9d985;
+
+}
+
+.hebergement img {
+    border-radius: 15px 15px 0 0;
+    width: 246px;
+    height: 124px;
+    object-fit:cover;
+}
+
+.hebergement h4, p, .noteHebergement {
+margin-left: 10px;
+}
+.hebergement h4 {
+margin-top: 5px;
+}
+
+
+
+.bluestar {
+    color: #0065FC;
+}
+
+.blackstar {
+   color: rgba(0, 0, 0, 0.2);
+}
+
+.resultatPopulaire  {
+    margin-right: 0;
+    
+}
+
+.TitrePopulaires {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.resultatPopulaire {
+    display: flex;
+    width: 343px;
+    height: 144px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px #d9d9d985;
+}
+
+.LesPlusPopulaires img {
+    width: 137px;
+    padding: 5px;
+    background-color: white;
+    border-radius:  15px 0 0 15px;
+    object-fit:cover;
+}
+.infoPopulaires {
+    padding: 15px;
+    background-color: white;
+    border-radius: 0 15px 15px 0;
+    width: 196px;
+}
+
+.resultatPopulaire p{
+
+    margin-top: 10px;
+    margin-left: 0;
+
+}
+
+.notePopulaire {
+    margin-top: 40px;
+}
+
+
+/*------------------------------------------------- Activités à Marseille -----------------------------*/
+
+.activitesMarseille {
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.resultatActivitesMarseille {
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.activiteMarseille {
+    width: 302px;
+    box-shadow: 5px 5px 5px #d9d9d985;
+    border-radius: 15px;
+}
+
+.activiteMarseille  img{
+    width: 302px;
+    height: 388px;
+    border-radius: 15px 15px 0 0;
+    object-fit:cover;
+}
+
+.activitesMarseille h1 {
+    margin-bottom: 20px;
+}
+
+.activiteMarseille h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+
+}
+
+/*-----------------------------------------------Footer-----------------------------------------------*/
+
+footer {
+    width: 1400px;
+    height: 225px;
+    background-color: #D9D9D9;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.liensfooter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+
+}
+
+.liensfooter a {
+    margin-top: 20px;
+    
+}
+
+/*----------------Media Queries--------------------------*/
+
+@media (max-width: 992px) { 
+    .sectionResultatRecherche {
+        flex-direction: column;
+    }
+
+    .resultat2 {
+        width: 800px;
+        margin-top: 50px;
+    }
+    .resultatsPopulaire {
+        display: flex;
+        width: 80%;
+    }
+
+    .resultatPopulaire {
+        width: 33%;
+    }
+ }
+
+@media (max-width: 768px) { 
+
+}
