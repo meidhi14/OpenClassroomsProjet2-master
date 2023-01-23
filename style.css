@@ -25,16 +25,26 @@ body {
     background-color: white;
 }
 
+
+
+
+/*------------------Couleurs logos-----------------------------*/
+
+.bluestar {
+    color: #0065FC;
+}
+
+.blackstar {
+   color: rgba(0, 0, 0, 0.2);
+}
+
 i {
     color: #0065FC;
 }
 
-h1 {
-    font-weight: bold;
+.blacklogo {
+    color: black;
 }
-
-
-
 
 /*-------------------------------------------------- HEADER --------------------------------------------------------*/
 
@@ -68,6 +78,7 @@ justify-content: center;
 .menuHeader li {
     padding-top: 40px;
     margin: auto;
+    margin-right: 10px;
 }
 
 .menuHeader li:hover {
@@ -83,9 +94,6 @@ justify-content: center;
     text-decoration: none;
     color: black; 
     text-align: center;
-
-    margin-right: 10px;
-
 }
 
 /* ------------------------------------------------------------ FORMULAIRE DE RECHERCHE  -------------------------------------------------*/
@@ -177,17 +185,12 @@ justify-content: center;
     margin-top: 40px;
 }
 
+.logoinfo {
+    margin-right: 20px;
+}
 /*------------------------------------------- Hébergements à Marseille -----------------------------------------------------*/
 
-
-.bluestar {
-    color: #0065FC;
-}
-
-.blackstar {
-   color: rgba(0, 0, 0, 0.2);
-}
-
+/* Placement */ 
 
 .sectionResultatRecherche{
    
@@ -368,6 +371,7 @@ footer {
     margin: auto;
     display: flex;
     justify-content: space-around;
+    padding-bottom: 50px;
 }
 
 .liensfooter {
@@ -501,6 +505,18 @@ footer {
         align-items: center;
     }
 
+    .bouttonTexteRechercher {
+        display: none;
+    }
+
+    .bouttonLogoRechercher {
+        font-size: 1em;
+    }
+
+    .formulaire button {
+        width: 50px;
+    }
+
     /*------------------------------------------- Hébergements à Marseille -----------------------------------------------------*/
 
     .sectionResultatRecherche {
@@ -509,8 +525,8 @@ footer {
     }
 
     .titreLesPlusPopulaires {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .lesPlusPopulaires {
@@ -519,6 +535,7 @@ footer {
         border-radius: 20px;
         padding: 0;
         padding-top: 30px;
+        padding-bottom: 50px;
         border-radius: 0;
     }
 
@@ -553,6 +570,10 @@ footer {
         margin-bottom: 20px;
     }
 
+    .AfficherPlus {
+        display: none;
+    }
+
     /*------------------------------------------------- Activités à Marseille -----------------------------*/
 
     .resultatActivitesMarseille {
@@ -567,14 +588,20 @@ footer {
         margin-bottom: 20px;
     }
 
+    .activitesMarseille h1 {
+        width: 30%;
+        padding-left: 20px;
+
+    }
+
     /*-----------------------------------------------Footer-----------------------------------------------*/
 
     footer {
-
         display: block; 
-        padding-left: 20px;
-        padding-bottom: 50px;
+    }
 
+    .liensfooter {
+        padding-left: 20px;
     }
 
 }
