@@ -25,7 +25,9 @@ body {
     background-color: white;
 }
 
-
+h2 {
+    font-size: 1em;
+}
 
 
 /*------------------Couleurs logos-----------------------------*/
@@ -152,10 +154,11 @@ justify-content: center;
     display: flex;
 }
 
-.filtres h3 {
+.filtres h2 {
     margin-right: 20px;
     display: flex;
     align-items: center;
+    font-size: 1.2em;
 }
 
 .filtres i {
@@ -213,6 +216,9 @@ justify-content: center;
 .hebergements h1{
     margin: 20px;
 }
+
+
+
 
 .hebergementsTop {
     width: 100%;
@@ -356,7 +362,7 @@ justify-content: center;
     margin-bottom: 20px;
 }
 
-.activiteMarseille h4{
+.activiteMarseille h2{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 25px;
