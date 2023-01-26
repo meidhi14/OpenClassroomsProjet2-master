@@ -13,9 +13,6 @@ a{
     text-decoration: none;
 }
 
-html{
-    background-color: #f2f2f2;
-}
 
 body {
     max-width: 1400px;
@@ -154,6 +151,12 @@ justify-content: center;
     display: flex;
 }
 
+.filtres {
+    width: 100%;
+}
+
+
+
 .filtres h2 {
     margin-right: 20px;
     display: flex;
@@ -163,7 +166,7 @@ justify-content: center;
 
 .filtres i {
     color: #0065FC;
-    font-size: 1.3em;
+    font-size: 1.5em;
 
 }
 
@@ -172,6 +175,7 @@ justify-content: center;
     padding: 10px;
     border: 2px solid #D9D9D9;
     border-radius: 30px;
+    align-items: center;
 }
 
 .element:hover {
@@ -396,6 +400,21 @@ footer {
 
 @media (max-width: 992px) { 
 
+
+
+    /*------------------------------------------- Formulaire -----------------------------------------------------*/
+    .logofiltre {
+        margin-right: 5px;
+    }
+    
+    .filtres h2 {
+        margin-right: 5px;
+        font-size: 1em;
+    }
+
+    .element {
+        padding-right: 10px;
+    }
     /*------------------------------------------- Hébergements à Marseille -----------------------------------------------------*/
 
     .hebergements {
