@@ -26,6 +26,9 @@ h2 {
     font-size: 1em;
 }
 
+.bold {
+    font-weight: bold;
+}
 
 /*------------------Couleurs logos-----------------------------*/
 
@@ -323,7 +326,11 @@ justify-content: center;
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    padding: 2px 16px;
+    padding: 2px 15px;
+
+}
+.containerlesPlusPopulaires p {
+    margin-bottom: 60px;
 
 }
 
@@ -406,7 +413,7 @@ footer {
     .logofiltre {
         margin-right: 5px;
     }
-    
+
     .filtres h2 {
         margin-right: 5px;
         font-size: 1em;
@@ -491,7 +498,7 @@ footer {
         
         color: #0065FC;
         border-top: 0;
-        border-bottom: 1px solid  #0065FC;
+        border-bottom: 3px solid  #0065FC;
     }
     
     .menuHeader li a:hover{
@@ -503,6 +510,10 @@ footer {
     .fonctionformulaire {
        padding-left: 20px;
        padding-right: 20px;
+    }
+
+    .fonctionformulaire h1 {
+        margin-bottom: 10px;
     }
 
     .filtres {
