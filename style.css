@@ -22,8 +22,11 @@ body {
     background-color: white;
 }
 
+h1 {
+    font-size: 22px;
+}
 h2 {
-    font-size: 1em;
+    font-size: 16px;
 }
 
 .bold {
@@ -164,7 +167,7 @@ justify-content: center;
     margin-right: 20px;
     display: flex;
     align-items: center;
-    font-size: 1.2em;
+    font-size: 17px;
 }
 
 .filtres i {
@@ -245,6 +248,7 @@ justify-content: center;
 .AfficherPlus {
     padding-left: 10px;
 }
+
 
 .titreLesPlusPopulaires {
     display: flex;
@@ -370,7 +374,7 @@ justify-content: center;
 }
 
 .activitesMarseille h1 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .activiteMarseille h2{
@@ -400,7 +404,7 @@ footer {
 
 .liensfooter a {
     margin-top: 20px;
-    
+    font-size: 18px;
 }
 
 /*------------------------------------------------Media Queries--------------------------------------------------*/
