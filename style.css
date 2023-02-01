@@ -365,8 +365,13 @@ justify-content: center;
 .activiteMarseille {
     width:  100%;
     box-shadow: 5px 5px 5px #d9d9d985;
+    transition: 0.3s;
     border-radius: 15px;
     margin-right: 10px;
+}
+
+.activiteMarseille:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 
